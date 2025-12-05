@@ -1,0 +1,96 @@
+* {
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+  display: flex;
+  justify-content: center;
+  background-color:white;
+}
+form {
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 40px;
+  margin: 300px;
+  width: 670px;
+  background-image: linear-gradient(45deg, rgb(222, 222, 222),white,lightblue);
+}
+h1,h2 {
+  text-align: center;
+}
+h4{
+  padding-left: 6px;
+}
+img{
+  display: inline;
+  align-content:center;
+  vertical-align: middle;
+}
+.r1,.r2{
+  display:inline-flex;
+  flex-direction:column;
+  width: 280px;
+  margin-left:30px;
+}
+.r2{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.box{
+  padding: 5px;
+}
+#file-box{
+  border:1px solid grey ;
+  background-color: white;
+}
+.radio-buttons{
+  padding-left:  30px;
+  padding-top: 10px;
+}
+.gender-options{
+  padding-top: 1px;
+}
+.contact,.Address,.add-box{
+  padding-left: 30px;
+}
+.Address{
+  padding-top: 5px;
+}
+
+.btn{
+  background-color: rgba(0, 109, 128, 0.505);
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+  margin: 10px;
+}
+.buttons{
+  
+  padding-left: 219px;
+  padding-top: 20px;
+}
+.tnc{
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 5px;
+}
+.dob{
+  justify-content: center;
+  padding-left: 30px;
+}
+.loc{
+  padding-left: 30px;
+}
+.upp{
+  padding-top: 5px;
+}
+.whole{
+  padding-left: -4px;
+}
+form{
+  margin:30px;
+}

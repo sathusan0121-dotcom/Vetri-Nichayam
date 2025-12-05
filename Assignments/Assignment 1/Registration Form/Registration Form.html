@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./Reg form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+<body>
+    <form>
+
+    <h1><img src="rtn1.png" alt="logo" width="60" height="60"> ROTARY CLUB MEMBERSHIP</h1>
+    <h2>Registration Form</h2> 
+
+    <div class="whole">
+        <h4>Personal information</h4>
+        <div class="r1">
+            <label for="first name">First Name</label>
+            <input type="textbox" class="box" placeholder="Enter your First name" required>
+        </div>
+        <div class="r1">
+            <label for="last name">Last Name</label>
+            <input type="textbox" class="box" placeholder="Enter your Last name">
+        </div>
+        <div class="r2">
+            <label for="email">Email Address</label>
+            <input type="mail" class="box" placeholder="Enter mail id">
+        </div>
+        <div class="r2">
+            <label>Password</label>
+            <input type="text" class="box" max length="8" placeholder="Enter Password">
+        </div>
+        <div class="dob">
+            <label>Date of Birth</label>
+        <div>
+            <input type="date" class="box">
+        </div>   
+        </div>
+        <div class="radio-buttons">
+        <label>Gender</label>
+        <div class="gender-options">
+            <input type="radio" class="radio-buttons" name="gender">
+            <label>Female</label>
+            <input type="radio" class="radio-buttons" name="gender">
+            <label>Male</label>
+            <input type="radio" class="radio-buttons" name="gender">
+            <label>Others</label>
+        </div>    
+        </div>
+
+        <div>
+            <h4>Contact Details</h4>
+        <div class="contact">
+            <label>Ph.no</label>
+            <input type="tel" class="box" max length="10" placeholder="Enter mobile no">
+        </div>
+        <div class="Address">
+            <label>Permanent Address</label>
+        </div>
+        <div class="add-box">
+            <textarea rows="3" cols="30" max length="20"></textarea>
+        </div>
+        </div>
+      
+    
+        <div>
+            <h4>Location</h4>
+        <div class="loc">
+            <label>City</label>
+            <select class="box">
+                <option>Chennai</option>
+                <option>Salem</option>
+                <option>Trichy</option>
+                <option>Coimbatore</option>
+            </select>
+        
+        <div class="upp">
+            <label>Upload Profile Photo</label>
+            <input type="file" class="box" id="file-box">
+        </div>
+        </div>
+        </div>
+
+        <div class="tnc">
+            <label><input type="checkbox">Accept Terms & Conditions</label>
+        </div> 
+
+        <div class="buttons">
+            <button class="btn">Register</button>
+            <button class="btn">Cancel</button>
+            <button class="btn">Reset</button>
+        </div>
+    </div>      
+    </form>   
+</body>
+</html>
